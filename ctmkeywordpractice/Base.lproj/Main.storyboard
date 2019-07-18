@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aRz-xB-bBC">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -51,8 +51,8 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Investigation : Promise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMz-r9-yi5">
-                                                        <rect key="frame" x="67" y="52" width="280" height="35"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Investigation : Irresistible" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMz-r9-yi5">
+                                                        <rect key="frame" x="67" y="52" width="307" height="35"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                                         <nil key="textColor"/>
@@ -141,13 +141,30 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgh-rQ-hUJ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgh-rQ-hUJ">
                                                         <rect key="frame" x="23" y="416" width="383" height="380"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <string key="text">Juliet knew of two promises. One, of her longtime friend. Harris, was his name. It’d be an understatement to say that she loved him— he was her companion. Friends since childhood, and best friends til the end of time. The day he let go of her was the day life would tear him from her. 
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">Juliet knew of two promises. One, of her longtime friend. Harris, was his name. It’d be an understatement to say that she loved him— he was her companion. Friends since childhood, and best friends til the end of time. The day he let go of her was the day life would </string>
+                                                                <attributes>
+                                                                    <font key="NSFont" size="20" name="Courier"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="tear">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                                                    <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment>
+                                                                <string key="content"> him from her. 
 </string>
-                                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                                        <nil key="textColor"/>
+                                                                <attributes>
+                                                                    <font key="NSFont" size="20" name="Courier"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kja-4H-tcX">
@@ -233,15 +250,32 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHh-RY-2u4">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHh-RY-2u4">
                                                                 <rect key="frame" x="23" y="416" width="383" height="380"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <string key="text">By god, if she had known more, he’d give her his all. He’d hold up the skies, the earth, and so much more for her. At the snap of a finger, he’d bend to her will. God help any who pulled tears from her eyes.
+                                                                <attributedString key="attributedText">
+                                                                    <fragment>
+                                                                        <string key="content">By god, if she had known more, he’d give her his all. He’d hold up the skies, the earth, and so much more for her. At the snap of a finger, he’d bend to her will. God help any who pulled tears from her eyes.
 
-The other promise was of her beloved Romeo. He was the sweetest, the most caring, the most hated...
+The other promise was of her beloved Romeo. He was the sweetest, the most caring, the most </string>
+                                                                        <attributes>
+                                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="hated">
+                                                                        <attributes>
+                                                                            <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                                                            <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment>
+                                                                        <string key="content">...
 </string>
-                                                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                                                <nil key="textColor"/>
+                                                                        <attributes>
+                                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                </attributedString>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZX6-9A-pDH">
@@ -264,6 +298,9 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="24"/>
                                                                 <state key="normal" title="Done"/>
+                                                                <connections>
+                                                                    <segue destination="02p-aC-vqR" kind="show" id="58f-3l-EJ3"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.75130377829999995" green="0.79173795459999996" blue="0.79241147209999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -288,7 +325,82 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oKq-Bg-8SA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1549.2753623188407" y="4247.5446428571431"/>
+            <point key="canvasLocation" x="-1525" y="4248"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cPa-mA-Yde">
+            <objects>
+                <viewController id="aRz-xB-bBC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dkL-v8-cjN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You have a new case!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NK5-6a-Olz">
+                                <rect key="frame" x="57" y="60" width="301" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJD-B5-WNE">
+                                <rect key="frame" x="168" y="741" width="79" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="26"/>
+                                <state key="normal" title="Begin"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="k3S-6M-PFd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Sf-k3-Vg7">
+                                <rect key="frame" x="23" y="222" width="371" height="380"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">You remember it. A scene of muted color, of ambiguity, of malicious intent masked to be divine. The call was precisely 3:04 in the morning, after an anonymous call reported a stench from the apartment on 4th avenue. A man had lied there, blonde haired, lank and painfully average. He was Romeo Phillip. There was a </string>
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="20" name="Courier"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="pill bottle">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                            <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" in his hand, empty, as he foamed at the mouth. You brought him to the ">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="20" name="Courier"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="coroner">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                            <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">..
+</string>
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="20" name="Courier"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nEc-k6-wIK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dw2-Ee-XqL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1083" y="-439"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -333,28 +445,32 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btC-o1-PYZ">
-                                <rect key="frame" x="19" y="79" width="101" height="44"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="detectiveFile" translatesAutoresizingMaskIntoConstraints="NO" id="JfO-Cz-uPm">
+                                <rect key="frame" x="-84" y="-140" width="517" height="1078"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btC-o1-PYZ">
+                                <rect key="frame" x="5" y="119" width="101" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
                                 <state key="normal" title="Saturday"/>
                                 <connections>
                                     <segue destination="zCy-0i-ju6" kind="show" id="1cS-PT-lht"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9p-fu-xCV">
-                                <rect key="frame" x="18" y="134" width="104" height="44"/>
+                                <rect key="frame" x="5" y="153" width="133" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
                                 <state key="normal" title="Pill Bottle"/>
                                 <connections>
                                     <segue destination="e6s-oh-iNB" kind="show" id="YmH-Ih-s9p"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S31-lb-zRA">
-                                <rect key="frame" x="18" y="238" width="99" height="44"/>
+                                <rect key="frame" x="0.0" y="209" width="99" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
                                 <state key="normal" title="Coroner"/>
                                 <connections>
                                     <segue destination="WWa-x5-Qjg" kind="show" id="tuV-7b-L3R"/>
@@ -371,19 +487,19 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ap1-N8-kje">
-                                <rect key="frame" x="13" y="289" width="157" height="44"/>
+                                <rect key="frame" x="5" y="246" width="229" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="Unincrimating"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
+                                <state key="normal" title="Perscription Bottle"/>
                                 <connections>
-                                    <segue destination="GDf-45-QBe" kind="show" id="KBF-2E-GLF"/>
+                                    <segue destination="GDf-45-QBe" kind="show" id="YQq-wv-UJ6"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4jt-DA-yrF">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Title" id="ul0-K7-5NB">
+                                    <navigationItem title="Investigation" id="ul0-K7-5NB">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="dvj-yd-XuD">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="show" id="Q6V-5x-YNS"/>
@@ -393,70 +509,112 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiH-iP-3S0">
-                                <rect key="frame" x="13" y="393" width="120" height="44"/>
+                                <rect key="frame" x="8" y="310" width="133" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
                                 <state key="normal" title="Alternative"/>
                                 <connections>
                                     <segue destination="bOZ-dy-LGV" kind="show" id="5Hq-5p-h9S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9LY-Wy-xKB">
-                                <rect key="frame" x="26" y="445" width="63" height="44"/>
+                                <rect key="frame" x="8" y="341" width="61" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
                                 <state key="normal" title="Heart"/>
                                 <connections>
                                     <segue destination="DGV-sD-JcH" kind="show" id="ruu-ho-Nfz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-jt-jb1">
-                                <rect key="frame" x="214" y="289" width="147" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="Blunt Trauma"/>
-                                <connections>
-                                    <segue destination="3Lc-Yb-u06" kind="show" id="4Gd-c2-GH5"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zeq-Lw-4Ah">
-                                <rect key="frame" x="197" y="110" width="68" height="39"/>
+                                <rect key="frame" x="5" y="183" width="85" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
                                 <state key="normal" title="Darling"/>
                                 <connections>
                                     <segue destination="Kvp-PH-CRd" kind="show" id="jb3-Av-d9o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EcC-g4-2c5">
-                                <rect key="frame" x="25" y="512" width="44" height="41"/>
+                                <rect key="frame" x="8" y="403" width="49" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
                                 <state key="normal" title="Tear"/>
                                 <connections>
                                     <segue destination="13S-My-qmJ" kind="show" id="jLM-O3-mTE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dJ-9I-Chc">
-                                <rect key="frame" x="6" y="576" width="102" height="40"/>
+                                <rect key="frame" x="6" y="432" width="145" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
                                 <state key="normal" title="Irresistible"/>
                                 <connections>
                                     <segue destination="4Av-yG-DQM" kind="show" id="2X4-JN-Cmm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MwB-H7-1vc">
-                                <rect key="frame" x="208" y="405" width="74" height="38"/>
+                                <rect key="frame" x="5" y="374" width="85" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
                                 <state key="normal" title="Promise"/>
                                 <connections>
                                     <segue destination="LjG-2e-RYh" kind="show" id="cEO-s4-h4A"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkf-cj-tY7">
+                                <rect key="frame" x="8" y="464" width="121" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
+                                <state key="normal" title="relaxation"/>
+                                <connections>
+                                    <segue destination="GDf-45-QBe" kind="show" id="mh6-oh-Y6g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x65-me-Eyz">
+                                <rect key="frame" x="8" y="495" width="37" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
+                                <state key="normal" title="Her"/>
+                                <connections>
+                                    <segue destination="GDf-45-QBe" kind="show" id="Nru-sV-DKi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gw-oq-AMC">
+                                <rect key="frame" x="5" y="523" width="61" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
+                                <state key="normal" title="Hated"/>
+                                <connections>
+                                    <segue destination="GDf-45-QBe" kind="show" id="V9L-ML-FlZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zc0-Or-Fpp">
+                                <rect key="frame" x="0.0" y="705" width="414" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What should I look into...? Maybe to start, I should look into the day the murder took place..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cnv-Tk-Ovr">
+                                <rect key="frame" x="8" y="599" width="383" height="380"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-jt-jb1">
+                                <rect key="frame" x="8" y="271" width="147" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
+                                <state key="normal" title="Blunt Trauma"/>
+                                <connections>
+                                    <segue destination="3Lc-Yb-u06" kind="show" id="4Gd-c2-GH5"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3Gz-r3-tpz"/>
                     </view>
                 </viewController>
@@ -479,6 +637,12 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hd2-bB-zl3">
+                                <rect key="frame" x="127" y="678" width="125" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="23"/>
+                                <state key="normal" title="Try again"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uMb-o5-5V0"/>
@@ -497,12 +661,21 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Correct! You won" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6y-hp-TqV">
-                                <rect key="frame" x="41" y="322" width="292" height="48"/>
+                                <rect key="frame" x="61" y="115" width="292" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVA-rU-Ciw">
+                                <rect key="frame" x="20" y="826" width="58" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="24"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="8Zr-Bx-2ks" kind="show" id="j1p-Hl-7vZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3Za-Yi-hXH"/>
@@ -511,6 +684,76 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vyK-yk-Anr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2772" y="-1457"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Urn-gk-I8Q">
+            <objects>
+                <viewController id="8Zr-Bx-2ks" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hYt-Qz-TH9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKN-d8-hZh">
+                                <rect key="frame" x="20" y="826" width="58" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="24"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="gct-Kp-SCw" kind="show" id="NVF-Dh-Iv6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1E-sj-gKc">
+                                <rect key="frame" x="16" y="11" width="383" height="380"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The murder was Harris Nightbane. Harris Nightbane was Juliet Aurora's neighbor, and secretly in love with her. He knew about the many fights that took place between Romeo and Aurora, and he also found out about Romeo and Sam's meetups. Harris fueled by his love for Aurora was enraged by the situation and went to confront Romeo
+</string>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTp-xY-Kgg">
+                                <rect key="frame" x="16" y="551" width="383" height="380"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">A fight turned into an accidental death when Harris pushed Romeo into a metal pole. To coverup, his tracks, Harris found drugs in Romeo's bag, and planted the drugs in Romeo's mouth, and fled. The same drugs in Romeo's mouth matched the drugs found at Sam's apartment. 
+</string>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zdE-4g-yoh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pF3-ts-DVU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3474" y="-1457"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WOO-bh-QxC">
+            <objects>
+                <viewController id="gct-Kp-SCw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="920-nn-xDd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06K-57-MwT">
+                                <rect key="frame" x="11" y="-18" width="383" height="380"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text"> Chad was the one to find the body. He checked for a pulse, hence his fingerprints were all over the body. However realizing his past conflict with the police he fled as well, and a civilian called the police to report that there was a body.
+</string>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="UHF-LU-B5J"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dTE-kC-FHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4254" y="-1457"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4eI-0V-K7o">
@@ -579,6 +822,15 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                 <rect key="frame" x="243" y="585" width="151" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kt7-7K-6Bb">
+                                <rect key="frame" x="20" y="844" width="145" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
+                                <state key="normal" title="Nevermind..."/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="EgO-8r-TLh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2Y0-Nh-O7N"/>
@@ -610,14 +862,47 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrt-eG-3nJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrt-eG-3nJ">
                                 <rect key="frame" x="23" y="397" width="371" height="380"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">You remember it. A scene of muted color, of ambiguity, of malicious intent masked to be divine. The call was precisely 3:04 in the morning, after an anonymous call reported a stench from the apartment on 4th avenue. A man had lied there, blonde haired, lank and painfully average. He was Romeo Phillip. There was a pill bottle in his hand, empty, as he foamed at the mouth. You brought him to the coroner..
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">You remember it. A scene of muted color, of ambiguity, of malicious intent masked to be divine. The call was precisely 3:04 in the morning, after an anonymous call reported a stench from the alley on 4th avenue. A man had lied there, blonde haired, lank and painfully average. He was Romeo Phillip. There was a </string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="Courier"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="pill bottle">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                            <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" in his hand, empty, as he foamed at the mouth. You brought him to the ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="Courier"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="coroner">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                            <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">..
 </string>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="Courier"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ymv-Wl-xrj">
                                 <rect key="frame" x="0.0" y="397" width="414" height="26"/>
@@ -664,13 +949,31 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiO-9C-Nsv">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiO-9C-Nsv">
                                         <rect key="frame" x="23" y="397" width="371" height="380"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">You recall from the past, the name: Chad Boseman. He was an avid mafioso, running with the D’Angelo family and planning drug deals. The man was a master of bribery, and by god, he was good at it. He was built up strong, and Romeo was no stranger to building an attitude, nor finding “relaxation”.
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">You recall from the past, the name: Chad Boseman. He was an avid mafioso, running with the D’Angelo family and planning drug deals. The man was a master of bribery, and by god, he was good at it. He was built up strong, and Romeo was no stranger to building an attitude, nor finding </string>
+                                                <attributes>
+                                                    <font key="NSFont" size="20" name="Courier"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="“relaxation”.">
+                                                <attributes>
+                                                    <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                                    <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
 </string>
-                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                        <nil key="textColor"/>
+                                                <attributes>
+                                                    <font key="NSFont" size="20" name="Courier"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nF6-R3-a8H">
@@ -745,13 +1048,29 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whg-zt-if1">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whg-zt-if1">
                                                                         <rect key="frame" x="23" y="397" width="385" height="380"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                        <string key="text">‘I know how much you yearn, darling. That look in your eye is no short of malevolence. Your desire for more… how irresistible.’
+                                                                        <attributedString key="attributedText">
+                                                                            <fragment content="‘I know how much you yearn, darling. That look in your eye is no short of malevolence. Your desire for more… how ">
+                                                                                <attributes>
+                                                                                    <font key="NSFont" size="20" name="Courier"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                            <fragment content="irresistible">
+                                                                                <attributes>
+                                                                                    <font key="NSFont" size="20" name="Courier-BoldOblique"/>
+                                                                                    <font key="NSOriginalFont" size="20" name="Courier-BoldOblique"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                            <fragment>
+                                                                                <string key="content">.’
 </string>
-                                                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                                                        <nil key="textColor"/>
+                                                                                <attributes>
+                                                                                    <font key="NSFont" size="20" name="Courier"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  Samantha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWY-HQ-YdG">
@@ -1231,13 +1550,29 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlz-48-Uat">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlz-48-Uat">
                                                         <rect key="frame" x="16" y="325" width="390" height="380"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <string key="text">Even so, such a life became stressful. She turned to... alternative forms of relief.
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Even so, such a life became stressful. She turned to... ">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="20" name="Courier"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="alternative">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                                                    <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment>
+                                                                <string key="content"> forms of relief.
 </string>
-                                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                                        <nil key="textColor"/>
+                                                                <attributes>
+                                                                    <font key="NSFont" size="20" name="Courier"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3u-MV-hbA">
@@ -1260,6 +1595,9 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="24"/>
                                                         <state key="normal" title="Done"/>
+                                                        <connections>
+                                                            <segue destination="02p-aC-vqR" kind="show" id="V1h-bL-wAn"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.75130377829999995" green="0.79173795459999996" blue="0.79241147209999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1290,8 +1628,12 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="detectiveFile" translatesAutoresizingMaskIntoConstraints="NO" id="Zeh-7X-SQM">
+                                <rect key="frame" x="-17" y="-152" width="449" height="1014"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Oh-tM-7kf">
-                                <rect key="frame" x="31" y="377" width="371" height="58"/>
+                                <rect key="frame" x="22" y="355" width="371" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Conclude investigation"/>
@@ -1299,14 +1641,29 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                     <segue destination="TRC-EP-SQc" kind="show" id="l7n-16-aG7"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZ9-I6-P9Q">
+                                <rect key="frame" x="0.0" y="625" width="414" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="That's all the information I could find on that..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiL-vT-Zq6">
+                                <rect key="frame" x="20" y="527" width="355" height="380"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cVm-9G-yA6"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iyt-if-58k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-58" y="1533"/>
+            <point key="canvasLocation" x="-59.420289855072468" y="1532.8125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sRK-Ms-eEe">
@@ -1338,14 +1695,53 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qh-BV-0Kc">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qh-BV-0Kc">
                                                 <rect key="frame" x="23" y="416" width="383" height="380"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">The coroner slipped the sheet of paper from his files, gesturing down to the body template he had gingerly placed in front of you. 
-“Drugs were found in the body’s system, both in the stomach and the throat. The medicine itself was in a prescription bottle. But the body itself seemed to have died before the drugs were consumed.... there was blunt trauma in the victim’s throat and head, and the foaming was simply hand soap...
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">The coroner slipped the sheet of paper from his files, gesturing down to the body template he had gingerly placed in front of you. 
+“</string>
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Drugs">
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                                            <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" were found in the body’s system, both in the stomach and the throat. The medicine itself was in a ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="prescription bottle">
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                                            <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=". But the body itself seemed to have died before the drugs were consumed.... there was ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="blunt trauma">
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                                            <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> in the victim’s throat and head, and the foaming was simply hand soap...
 </string>
-                                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                                <nil key="textColor"/>
+                                                        <attributes>
+                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5F-av-KLY">
@@ -1447,6 +1843,9 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="24"/>
                                                                 <state key="normal" title="Done"/>
+                                                                <connections>
+                                                                    <segue destination="02p-aC-vqR" kind="show" id="kNJ-3D-Fkt"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.75130377829999995" green="0.79173795459999996" blue="0.79241147209999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1471,7 +1870,7 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zaX-Y5-pIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2100" y="1129.6875"/>
+            <point key="canvasLocation" x="2100" y="1069"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2Nk-ad-TMJ">
@@ -1500,12 +1899,28 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6G-ct-beZ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6G-ct-beZ">
                                                         <rect key="frame" x="16" y="325" width="357" height="380"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <string key="text">Romeo had never imagined that he could meet a girl like her. So fierce, so beautiful, so dangerous. Drawn to her mythic chakras, he oftentimes left his darling in place for a taste of the unknow...</string>
-                                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                                        <nil key="textColor"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment>
+                                                                <string key="content">Romeo had never imagined that he could meet a girl like her. So fierce, so beautiful, so dangerous. Drawn to her mythic chakras, he oftentimes left his </string>
+                                                                <attributes>
+                                                                    <font key="NSFont" size="20" name="Courier"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="darling">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                                                    <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content=" in place for a taste of the unknow...">
+                                                                <attributes>
+                                                                    <font key="NSFont" size="20" name="Courier"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKT-Mt-Neb">
@@ -1528,6 +1943,9 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="24"/>
                                                         <state key="normal" title="Done"/>
+                                                        <connections>
+                                                            <segue destination="02p-aC-vqR" kind="show" id="TAK-yn-HHR"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.75130377829999995" green="0.79173795459999996" blue="0.79241147209999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1679,13 +2097,29 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eno-Yu-Olv">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eno-Yu-Olv">
                                                                 <rect key="frame" x="16" y="325" width="357" height="380"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <string key="text">Juliet had given him a promise ring. She hoped— dreamed— that she was his one and only. But he left one too many nights, stood up one too many dates, and she couldn’t help but feel like she was drowning. 
+                                                                <attributedString key="attributedText">
+                                                                    <fragment content="Juliet had given him a ">
+                                                                        <attributes>
+                                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="promise">
+                                                                        <attributes>
+                                                                            <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                                                            <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment>
+                                                                        <string key="content"> ring. She hoped— dreamed— that she was his one and only. But he left one too many nights, stood up one too many dates, and she couldn’t help but feel like she was drowning. 
 </string>
-                                                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                                                <nil key="textColor"/>
+                                                                        <attributes>
+                                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                </attributedString>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRS-eF-ehq">
@@ -1877,15 +2311,32 @@ Put herself on her knees and with her heavy heart, screamed to God,
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4R-xy-cxv">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4R-xy-cxv">
                                                                                 <rect key="frame" x="16" y="325" width="390" height="380"/>
                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                                <string key="text">“I confess my sins, Lord, I flagellate— whip my own back for you…
-Have mercy on me, make his dastardly black heart no more!”
+                                                                                <attributedString key="attributedText">
+                                                                                    <fragment>
+                                                                                        <string key="content">“I confess my sins, Lord, I flagellate— whip my own back for you…
+Have mercy on me, make his dastardly black </string>
+                                                                                        <attributes>
+                                                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                                                        </attributes>
+                                                                                    </fragment>
+                                                                                    <fragment content="heart">
+                                                                                        <attributes>
+                                                                                            <font key="NSFont" size="20" name="Courier-Oblique"/>
+                                                                                            <font key="NSOriginalFont" size="20" name="Courier-Oblique"/>
+                                                                                        </attributes>
+                                                                                    </fragment>
+                                                                                    <fragment>
+                                                                                        <string key="content"> no more!”
 
 </string>
-                                                                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                                                                <nil key="textColor"/>
+                                                                                        <attributes>
+                                                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                                                        </attributes>
+                                                                                    </fragment>
+                                                                                </attributedString>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  Juliet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMj-1m-sWY">
@@ -1908,6 +2359,9 @@ Have mercy on me, make his dastardly black heart no more!”
                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="24"/>
                                                                                 <state key="normal" title="Done"/>
+                                                                                <connections>
+                                                                                    <segue destination="02p-aC-vqR" kind="show" id="3ZC-3s-ZRq"/>
+                                                                                </connections>
                                                                             </button>
                                                                         </subviews>
                                                                         <color key="backgroundColor" red="0.75130377829999995" green="0.79173795459999996" blue="0.79241147209999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1940,7 +2394,7 @@ Have mercy on me, make his dastardly black heart no more!”
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v2I-6m-jGw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3592.753623188406" y="3513.6160714285711"/>
+            <point key="canvasLocation" x="3594" y="3514"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kW0-SS-vV6">
@@ -2052,6 +2506,9 @@ Have mercy on me, make his dastardly black heart no more!”
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="24"/>
                                         <state key="normal" title="Done"/>
+                                        <connections>
+                                            <segue destination="02p-aC-vqR" kind="show" id="Eug-WC-y8R"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2069,12 +2526,16 @@ Have mercy on me, make his dastardly black heart no more!”
     </scenes>
     <resources>
         <image name="Vase" width="300" height="250"/>
+        <image name="detectiveFile" width="1242" height="1572"/>
         <image name="textMessages" width="1242" height="1488"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="2X4-JN-Cmm"/>
         <segue reference="GMU-rB-gfM"/>
+        <segue reference="YQq-wv-UJ6"/>
         <segue reference="iNV-P0-fMv"/>
         <segue reference="ww8-0W-px4"/>
         <segue reference="l7n-16-aG7"/>
+        <segue reference="Q6V-5x-YNS"/>
     </inferredMetricsTieBreakers>
 </document>

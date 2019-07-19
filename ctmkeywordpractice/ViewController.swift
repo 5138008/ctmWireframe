@@ -60,7 +60,7 @@ class ViewController: UIViewController {
         else if keyword.text == "Drug Deals" || keyword.text == "drug deals" || keyword.text == "drug Deals" || keyword.text == "Drug deals"{
             self.performSegue(withIdentifier: "drugDealsSegue", sender: self)
         }
-        else if keyword.text == "him" || keyword.text == "Him" {
+        else if keyword.text == "him" || keyword.text == "Him" || keyword.text == "His" || keyword.text == "his" {
             self.performSegue(withIdentifier: "himSegue", sender: self)
         }
         else if keyword.text == "midnight" || keyword.text == "Midnight"{

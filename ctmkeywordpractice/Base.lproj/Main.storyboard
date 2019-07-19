@@ -4149,13 +4149,28 @@ Put herself on her knees and with her heavy heart, screamed to God,
                                                                                 <attributedString key="attributedText">
                                                                                     <fragment>
                                                                                         <string key="content">“I confess my sins, Lord, I flagellate— whip my own back for you…
-Have mercy on me, make his dastardly black </string>
+Have mercy on me, make </string>
                                                                                         <attributes>
+                                                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                                                        </attributes>
+                                                                                    </fragment>
+                                                                                    <fragment content="his">
+                                                                                        <attributes>
+                                                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                                            <font key="NSFont" size="20" name="Courier-BoldOblique"/>
+                                                                                            <font key="NSOriginalFont" size="20" name="Courier-BoldOblique"/>
+                                                                                        </attributes>
+                                                                                    </fragment>
+                                                                                    <fragment content=" dastardly black ">
+                                                                                        <attributes>
+                                                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                             <font key="NSFont" size="20" name="Courier"/>
                                                                                         </attributes>
                                                                                     </fragment>
                                                                                     <fragment content="heart">
                                                                                         <attributes>
+                                                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                             <font key="NSFont" size="20" name="Courier-BoldOblique"/>
                                                                                             <font key="NSOriginalFont" size="20" name="Courier-BoldOblique"/>
                                                                                         </attributes>
@@ -4165,6 +4180,7 @@ Have mercy on me, make his dastardly black </string>
 
 </string>
                                                                                         <attributes>
+                                                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                             <font key="NSFont" size="20" name="Courier"/>
                                                                                         </attributes>
                                                                                     </fragment>
@@ -4399,7 +4415,7 @@ Have mercy on me, make his dastardly black </string>
     <inferredMetricsTieBreakers>
         <segue reference="GMU-rB-gfM"/>
         <segue reference="V9L-ML-FlZ"/>
-        <segue reference="V8r-3k-ND7"/>
+        <segue reference="n41-LK-Yiw"/>
         <segue reference="2iy-9s-V8y"/>
         <segue reference="ut3-ef-zn5"/>
         <segue reference="ww8-0W-px4"/>

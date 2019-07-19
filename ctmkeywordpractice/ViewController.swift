@@ -57,6 +57,18 @@ class ViewController: UIViewController {
         else if keyword.text == "malevolent" || keyword.text == "Malevolent"{
             self.performSegue(withIdentifier: "irresistibleSegue", sender: self)
         }
+        else if keyword.text == "Drug Deals" || keyword.text == "drug deals" || keyword.text == "drug Deals" || keyword.text == "Drug deals"{
+            self.performSegue(withIdentifier: "drugDealsSegue", sender: self)
+        }
+        else if keyword.text == "him" || keyword.text == "Him" {
+            self.performSegue(withIdentifier: "himSegue", sender: self)
+        }
+        else if keyword.text == "midnight" || keyword.text == "Midnight"{
+            self.performSegue(withIdentifier: "midnightSegue", sender: self)
+        }
+        else if keyword.text == "scuffle" || keyword.text == "Scuffle"{
+            self.performSegue(withIdentifier: "scuffleSegue", sender: self)
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -585,24 +585,6 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                 <rect key="frame" x="-126" y="0.0" width="1030" height="468"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UQQ-Kq-x9d">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="..." id="0gL-hN-hf2">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" style="plain" id="R1O-mT-0rN">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vc6-KR-OCg">
-                                                <rect key="frame" x="20" y="10" width="92" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Back"/>
-                                            </button>
-                                            <connections>
-                                                <segue destination="x83-ga-jHA" kind="show" id="InG-Ac-tVz"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fgfgdgfd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGy-u2-Kl5">
                                 <rect key="frame" x="236" y="559" width="296" height="316"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -633,6 +615,24 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                     <segue destination="ljp-wg-9HY" kind="show" id="pYb-CJ-R6O"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UQQ-Kq-x9d">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="..." id="0gL-hN-hf2">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" style="plain" id="R1O-mT-0rN">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vc6-KR-OCg">
+                                                <rect key="frame" x="20" y="10" width="92" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Back"/>
+                                            </button>
+                                            <connections>
+                                                <segue destination="x83-ga-jHA" kind="show" id="InG-Ac-tVz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -960,7 +960,7 @@ The other promise was of her beloved Romeo. He was the sweetest, the most caring
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <attributedString key="attributedText">
                                                             <fragment>
-                                                                <mutableString key="content">Despite how the bottle had been wiped of all information, the trace of drugs within the bottle were mixed. Xanax, as well as a mystery drug-- which seemed to have been made unprofessionally. The actual mystery drug was a week or two old, sold exclusively by Chad Boseman in the darkness of </mutableString>
+                                                                <string key="content">Despite how the bottle had been wiped of all information, the trace of drugs within the bottle were mixed. Xanax, as well as a mystery drug-- which seemed to have been made unprofessionally. The actual mystery drug was a week or two old, sold exclusively by Chad Boseman in the darkness of </string>
                                                                 <attributes>
                                                                     <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                     <font key="NSFont" size="21" name="Courier"/>
@@ -1746,19 +1746,6 @@ Cg
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vN0-pg-7Z0">
-                                        <rect key="frame" x="0.0" y="-12" width="768" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <items>
-                                            <navigationItem title="Investigation" id="WaJ-ui-NN6">
-                                                <barButtonItem key="leftBarButtonItem" title="Back" id="qfJ-69-FYA">
-                                                    <connections>
-                                                        <segue destination="TRC-EP-SQc" kind="show" id="KZ7-6c-2OC"/>
-                                                    </connections>
-                                                </barButtonItem>
-                                            </navigationItem>
-                                        </items>
-                                    </navigationBar>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbl-ND-0xN">
                                         <rect key="frame" x="8" y="310" width="133" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1886,6 +1873,19 @@ Cg
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
+                                    <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vN0-pg-7Z0">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <items>
+                                            <navigationItem title="Investigation" id="WaJ-ui-NN6">
+                                                <barButtonItem key="leftBarButtonItem" title="Back" id="qfJ-69-FYA">
+                                                    <connections>
+                                                        <segue destination="TRC-EP-SQc" kind="show" id="KZ7-6c-2OC"/>
+                                                    </connections>
+                                                </barButtonItem>
+                                            </navigationItem>
+                                        </items>
+                                    </navigationBar>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <viewLayoutGuide key="safeArea" id="9vA-it-tSu"/>
@@ -2090,6 +2090,48 @@ Cg
             <point key="canvasLocation" x="4209.375" y="-1457.2265625"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="tzm-dO-Anp">
+            <objects>
+                <viewController id="g6E-Yj-Mhf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qgn-4G-9Ym">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSL-9L-TmN">
+                                <rect key="frame" x="322" y="803" width="125" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="23"/>
+                                <state key="normal" title="Try again">
+                                    <color key="titleColor" red="0.32654332819999998" green="0.1215730445" blue="0.1071462807" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aRz-xB-bBC" kind="show" id="iue-mX-VeH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Perhaps, the victim died of a suicide?..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxy-Bd-ERK">
+                                <rect key="frame" x="20" y="98" width="728" height="237"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Still, you couldn't help but wonder, was it really the truth?..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEP-cb-pv9">
+                                <rect key="frame" x="20" y="262" width="728" height="237"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="HHj-ug-BMF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r9G-b2-tzq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="702" y="-1528"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="4eI-0V-K7o">
             <objects>
                 <viewController id="ljp-wg-9HY" sceneMemberID="viewController">
@@ -2109,15 +2151,15 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ChadBust-2" translatesAutoresizingMaskIntoConstraints="NO" id="gXp-P0-dSG">
-                                <rect key="frame" x="491" y="253" width="218" height="359"/>
+                                <rect key="frame" x="510" y="125" width="218" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HarrisonBust-2" translatesAutoresizingMaskIntoConstraints="NO" id="ioh-J1-o4u">
-                                <rect key="frame" x="499" y="525" width="203" height="351"/>
+                                <rect key="frame" x="506" y="673" width="203" height="351"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZH-Wz-8Jr">
-                                <rect key="frame" x="542" y="220" width="117" height="66"/>
+                                <rect key="frame" x="549" y="165" width="117" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="Chad">
@@ -2139,7 +2181,7 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1F-aJ-kNo">
-                                <rect key="frame" x="535" y="551" width="131" height="42"/>
+                                <rect key="frame" x="535" y="691" width="131" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Harrison ">
@@ -2150,15 +2192,15 @@ Cg
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JulietBust-2" highlightedImage="JulietBust-2" translatesAutoresizingMaskIntoConstraints="NO" id="TFy-pt-LKT">
-                                <rect key="frame" x="67" y="551" width="227" height="335"/>
+                                <rect key="frame" x="43" y="681" width="227" height="335"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SamBust-2" translatesAutoresizingMaskIntoConstraints="NO" id="Su3-61-QoO">
-                                <rect key="frame" x="52" y="253" width="209" height="324"/>
+                                <rect key="frame" x="52" y="142" width="209" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSK-bT-6gg">
-                                <rect key="frame" x="115" y="238" width="131" height="30"/>
+                                <rect key="frame" x="91" y="165" width="131" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Sultry Sam">
@@ -2169,7 +2211,7 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drz-Gy-yxE">
-                                <rect key="frame" x="113" y="551" width="135" height="42"/>
+                                <rect key="frame" x="87" y="691" width="135" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Juliet Aurora">
@@ -2177,6 +2219,21 @@ Cg
                                 </state>
                                 <connections>
                                     <segue destination="aBA-9X-egs" kind="show" id="ww8-0W-px4"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RomeoBust-2" translatesAutoresizingMaskIntoConstraints="NO" id="eh2-KR-gUS">
+                                <rect key="frame" x="269" y="397" width="253" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybt-sT-V0C">
+                                <rect key="frame" x="269" y="348" width="205" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Romeo (Suicide)">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="g6E-Yj-Mhf" kind="show" id="mV2-ag-ZS0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2452,22 +2509,26 @@ Cg
                                                                         <attributedString key="attributedText">
                                                                             <fragment content="‘I know how much you yearn, darling. That look in your eye is no short of ">
                                                                                 <attributes>
+                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                     <font key="NSFont" size="20" name="Courier"/>
                                                                                 </attributes>
                                                                             </fragment>
                                                                             <fragment content="malevolence">
                                                                                 <attributes>
-                                                                                    <font key="NSFont" size="20" name="Courier-BoldOblique"/>
-                                                                                    <font key="NSOriginalFont" size="20" name="Courier-BoldOblique"/>
+                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                                    <font key="NSFont" size="20" name="Courier"/>
+                                                                                    <font key="NSOriginalFont" size="20" name="Courier"/>
                                                                                 </attributes>
                                                                             </fragment>
                                                                             <fragment content=". Your desire for more… how ">
                                                                                 <attributes>
+                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                     <font key="NSFont" size="20" name="Courier"/>
                                                                                 </attributes>
                                                                             </fragment>
                                                                             <fragment content="irresistible">
                                                                                 <attributes>
+                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                     <font key="NSFont" size="20" name="Courier-BoldOblique"/>
                                                                                     <font key="NSOriginalFont" size="20" name="Courier-BoldOblique"/>
                                                                                 </attributes>
@@ -2476,6 +2537,7 @@ Cg
                                                                                 <string key="content">.’
 </string>
                                                                                 <attributes>
+                                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                                     <font key="NSFont" size="20" name="Courier"/>
                                                                                 </attributes>
                                                                             </fragment>
@@ -2574,12 +2636,28 @@ Cg
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvg-LG-kU2">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvg-LG-kU2">
                                                                 <rect key="frame" x="23" y="397" width="737" height="166"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <string key="text">“Oh, darling dearest, she never told her best friend of her lover? How tragic. I would bet it’s because the amount of pain that boy brings her is immeasurable. I don’t think she wants her best friend to see her in so much misery, babe.”</string>
-                                                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="20"/>
-                                                                <nil key="textColor"/>
+                                                                <attributedString key="attributedText">
+                                                                    <fragment content="“Oh, darling dearest, she never told ">
+                                                                        <attributes>
+                                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="her">
+                                                                        <attributes>
+                                                                            <font key="NSFont" size="20" name="Courier-BoldOblique"/>
+                                                                            <font key="NSOriginalFont" size="20" name="Courier-BoldOblique"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment>
+                                                                        <string key="content"> best friend of her lover? How tragic. I would bet it’s because the amount of pain that boy brings her is immeasurable. I don’t think she wants her best friend to see her in so much misery, babe.”</string>
+                                                                        <attributes>
+                                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                </attributedString>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  Samantha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgX-IN-QXk">
@@ -3372,8 +3450,8 @@ Cg
                                                     <fragment content="Drugs">
                                                         <attributes>
                                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                            <font key="NSFont" size="20" name="Courier-BoldOblique"/>
-                                                            <font key="NSOriginalFont" size="20" name="Courier-BoldOblique"/>
+                                                            <font key="NSFont" size="20" name="Courier"/>
+                                                            <font key="NSOriginalFont" size="20" name="Courier"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment content=" were found in the body’s system, both in the stomach and the throat. The medicine itself was in a ">
@@ -4386,6 +4464,7 @@ Have mercy on me, make </string>
         <image name="JulietBust-2" width="351" height="332"/>
         <image name="JulietT" width="806" height="918"/>
         <image name="JulietT-cry" width="725" height="808"/>
+        <image name="RomeoBust-2" width="323" height="397"/>
         <image name="RomeoT" width="620" height="684"/>
         <image name="SamBust-2" width="257" height="242"/>
         <image name="SamT" width="689" height="787"/>
@@ -4415,14 +4494,14 @@ Have mercy on me, make </string>
     <inferredMetricsTieBreakers>
         <segue reference="GMU-rB-gfM"/>
         <segue reference="V9L-ML-FlZ"/>
-        <segue reference="n41-LK-Yiw"/>
+        <segue reference="6o9-LE-qEY"/>
         <segue reference="2iy-9s-V8y"/>
-        <segue reference="ut3-ef-zn5"/>
+        <segue reference="Buv-ef-C8R"/>
         <segue reference="ww8-0W-px4"/>
         <segue reference="KZ7-6c-2OC"/>
-        <segue reference="Q6V-5x-YNS"/>
+        <segue reference="EgO-8r-TLh"/>
         <segue reference="InG-Ac-tVz"/>
         <segue reference="CGg-pe-yGs"/>
-        <segue reference="ZfE-7m-CNe"/>
+        <segue reference="iue-mX-VeH"/>
     </inferredMetricsTieBreakers>
 </document>
